@@ -1,0 +1,9 @@
+.nav {
+  background-color: #edf2ff;
+  padding: 15px 12%;
+}
+
+.nav_title {
+  font-size: 30px;
+  font-weight: bolder;
+}
