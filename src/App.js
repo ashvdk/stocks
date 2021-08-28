@@ -17,7 +17,7 @@ function App() {
   const getStockDetails = async () => {
     const api_key = Buffer.from('Batman&iambatman').toString('base64');
     //console.log(api_key);
-    const response = await axios.post('http://localhost:8080/getstockdetails', { "api_key": api_key });
+    const response = await axios.post('https://shielded-savannah-69827.herokuapp.com/getstockdetails', { "api_key": api_key });
     if (response.status == 200) {
       setstockdetails([...response.data.result]);
     }
