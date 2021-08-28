@@ -29,7 +29,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/stockinfo/",
+  "homepage": "https://github.com/stocks",
   "browserslist": {
     "production": [
       ">0.2%",
